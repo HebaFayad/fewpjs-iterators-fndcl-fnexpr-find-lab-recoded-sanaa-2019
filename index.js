@@ -13,8 +13,8 @@ superbowlWin(record);
 
 function superbowlWin(arg){
   let win=arg.find(function(item){
-    let winer=item.result==="W";
-    return winer
+   item.result==="W";
+    
   })
 console.log(win.year)
   if(typeof win ==="undefined"){return win;}
