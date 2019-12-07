@@ -11,9 +11,9 @@ const record = [
 ]
 superbowlWin(record);
 
-function superbowlWin(winArray ){
+function superbowlWin(winer ){
   let res;
-  res = winArray.find( function(r) { return r.result === "W" });
+  res = winer.find( function(r) { return r.result === "W" });
   if(typeof res ==="undefined"){return res;}
   else{
     return res.year;
