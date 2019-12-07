@@ -15,7 +15,7 @@ function superbowlWin(arg){
   let win=arg.find(function(item){
    item.result==="W";
     
-  })
+  });
 console.log(win.year)
   if(typeof win ==="undefined"){return win;}
   else{
