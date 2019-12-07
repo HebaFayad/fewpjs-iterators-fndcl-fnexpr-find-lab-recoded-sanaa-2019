@@ -11,21 +11,15 @@ const record = [
 ]
 superbowlWin(record);
 
-function superbowlWin(arg){
-  let win=arg.find(function(item){
-   item.result==="W";
-    
-  });
-console.log(win.year)
-  if(typeof win ==="undefined"){return win;}
+function superbowlWin(winArray ){
+  let res;
+  res = winArray.find( function(r) { return r.result === "W" });
+  if(typeof res ==="undefined"){return res;}
   else{
-    return win.year;
+    return res.year;
   }
+  
 }
-  // if() {return item.year }
-  // else{return console.log("undefined") }
-    
- 
 
 
 
