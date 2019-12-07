@@ -17,8 +17,10 @@ function superbowlWin(arg){
     return winer
   })
 console.log(win.year)
-if( win !=="undefined"){return win.year }
-else{return "undefined"}
+  if(typeof win ==="undefined"){return win;}
+  else{
+    return win.year;
+  }
 }
   // if() {return item.year }
   // else{return console.log("undefined") }
